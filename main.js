@@ -5,6 +5,9 @@
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 
+canvas.width = 600; // Width set to 1000 pixels
+canvas.height = 600; // Height set to 600 pixels
+
 //----------Audio and Image Loading:------------//
 
 //Here, an audio element (cannonSfx) and an image element (cannonTop) are created and loaded with sound and image files, respectively.
@@ -13,6 +16,7 @@ let cannonSfx = new Audio("Anti.mp3");
 // Load the cannon top image
 let cannonTop = new Image();
 cannonTop.src = "cannon.png";
+
 
 // --------------Initialize mouse position and angle----------------//
 
