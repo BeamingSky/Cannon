@@ -9,7 +9,7 @@ const ctx = canvas.getContext("2d");
 
 //Here, an audio element (cannonSfx) and an image element (cannonTop) are created and loaded with sound and image files, respectively.
 // Load the cannon firing sound
-let cannonSfx = new Audio("anti.mp3");
+let cannonSfx = new Audio("Anti.mp3");
 // Load the cannon top image
 let cannonTop = new Image();
 cannonTop.src = "cannon.png";
